@@ -20,11 +20,9 @@ public class PGDC {
 		return res;
 
 	}
-	
-	
 
 	public static void main(String[] args) {
-		
+
 		Scanner scanner = new Scanner(System.in);
 
 		System.out.print("Entrez un nombre positif : ");
@@ -33,7 +31,7 @@ public class PGDC {
 		int nb2 = scanner.nextInt();
 		scanner.close();
 
-		System.out.println("Le plus grand diviseur commun de " + nb1 + " et " + nb2 + " est " + getPgcd(nb1,nb2));
+		System.out.println("Le plus grand diviseur commun de " + nb1 + " et " + nb2 + " est " + getPgcd(nb1, nb2));
 
 	}
 }
